@@ -1,0 +1,27 @@
+{
+  "name": "angads-mystery-number",
+  "version": "1.0.1",
+  "description": "A fun CLI number guessing game!",
+  "main": "game.js",
+  "bin": {
+    "angads-mystery-number": "game.js"
+  },
+  "scripts": {
+    "start": "node game.js"
+  },
+  "keywords": [
+    "cli",
+    "game",
+    "guess",
+    "number"
+  ],
+  "author": "Angad",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.6.0",
+    "ora": "^8.2.0"
+  },
+  "type": "module"
+}
